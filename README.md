@@ -1,5 +1,17 @@
 # AngularPokedex
 
+##
+
+| Angular    | Trabalhando com Services no Angular              |
+|------------|--------------------------------------------------|
+| Com        | Felipe Silva Aguiar                              |
+| Bootcamp   | Santander Bootcamp 2023 - Fullstack Java+Angular |
+| Plataforma | DIO                                              |
+
+<br>
+
+##
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server

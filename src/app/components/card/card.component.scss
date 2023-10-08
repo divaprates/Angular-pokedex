@@ -1,13 +1,17 @@
 .card {
-    border: 1px solid black;
     width: 250px;
     height: 350px;
 
     display: flex;
     flex-direction: column;
 
-    background-color: #232323;
+    background-color: #fff;
     border-radius: 10px;
+    margin: 20px;
+
+    -webkit-box-shadow: 11px 18px 23px -8px rgba(97,97,97,1);
+    -moz-box-shadow: 11px 18px 23px -8px rgba(97,97,97,1);
+    box-shadow: 11px 18px 23px -8px rgba(97,97,97,1);
 }
 
 .card__title {
@@ -16,16 +20,19 @@
 }
 
 .card__title > h3 {
-    color: #fff;
+    color: #616161;
 }
 
 .card__body {
-    background-color: #616161;
     width: 90%;
     height: 70%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card__stats {
@@ -45,5 +52,6 @@
 }
 
 img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
 }

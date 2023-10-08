@@ -1,0 +1,8 @@
+<div class="content__home"
+    infinite-scroll
+    (scrolled)="setLimit()"
+    (scrolledUp)="onScrollUp($event)">
+
+    <app-card *ngFor="let pokemon of pokemonNameList" [namePokemon]="pokemon.name"/>
+    
+</div>
